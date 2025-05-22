@@ -1,7 +1,7 @@
 const { DataSource } = require("typeorm");
 const { User } = require("../entities/User");
 const { Software } = require("../entities/Software");
-const { Request } = require("../entities/Request"); // ✅ fixed
+const { Request } = require("../entities/Request");
 
 require("dotenv").config();
 
@@ -12,7 +12,7 @@ const AppDataSource = new DataSource({
   username: process.env.DB_USERNAME,
   password: process.env.DB_PASSWORD,
   database: process.env.DB_NAME,
-  synchronize: true,
+  synchronize: false,
   entities: [User, Software, Request],
 });
 
