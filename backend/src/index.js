@@ -28,5 +28,3 @@ AppDataSource.initialize()
     {
         console.error("error",err);
     })
-
-//eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Miwicm9sZSI6IkFkbWluIiwiaWF0IjoxNzQ3Nzk4ODg1LCJleHAiOjE3NDc4MDI0ODV9.VhnfcKvQynuSWUzSQTqlZ2quRlxxKdd7w8ZVM6mwQ_0
